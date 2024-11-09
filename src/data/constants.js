@@ -9,7 +9,7 @@ export const Bio = {
       "Full Stack Developer with extensive experience in Next.js and a strong foundation in the MERN stack. Proficient in leveraging Next.js for building high-performance,SEO-friendly web applications, while also skilled in developing dynamic, scalable solutions using modern technologies. Adept at creating responsive front-end interfaces and robust back-end services. Committed to delivering high-quality, maintainable code and continuously exploring new tools and techniques to enhance development capabilities.",
     github: "https://github.com/dev9914",
     resume:
-      "https://devresumesept9.tiiny.site/",
+      "https://silver-reggie-66.tiiny.site/",
     linkedin: "https://www.linkedin.com/in/devanand-kumar-09b451294/",
     twitter: "https://x.com/Dev_9914",
     insta: "https://www.instagram.com/dev.cmd/",
@@ -58,6 +58,11 @@ export const Bio = {
           name: "Tailwind Css",
           image:
             "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/768px-Tailwind_CSS_Logo.svg.png?20230715030042",
+        },
+        {
+          name: "NextJs",
+          image:
+            "https://www.drupal.org/files/styles/grid-3-2x/public/project-images/nextjs-icon-dark-background.png?itok=0YHs2vTR",
         },
       ],
     },
@@ -123,7 +128,7 @@ export const Bio = {
       img: "https://as1.ftcdn.net/v2/jpg/04/63/78/06/1000_F_463780679_JO37SpfCpo6oKuFhQz5GmuSnrOMrnXaj.jpg",
       role: "Full Stack developer intern",
       company: "qubitnets technologies",
-      date: "Aug 2024 - Jan 2025",
+      date: "Aug 2024 - Fab 2025",
       desc: "As a Full Stack Developer, I played a pivotal role in designing and implementing both front-end and back-end components of web applications. I utilized React.js and Tailwind CSS to create dynamic, responsive user interfaces while developing server-side logic with Node.js and Express.js. My responsibilities included managing databases with MongoDB and MySQL, optimizing performance, and ensuring seamless deployment on platforms like Render.com. I collaborated closely with cross-functional teams to deliver high-quality projects and troubleshoot technical issues. My role required a strong grasp of full stack development, effective problem-solving skills, and adaptability to evolving technologies.",
       skills: [
         "ReactJS",
@@ -186,8 +191,29 @@ export const Bio = {
   
   export const projects = [
     {
+      id: 101,
+      title: "Social Media Platform",
+      // date: "Jan 2024 - Dec 2023",
+      description:
+        "A comprehensive Instagram clone : including post uploads with images(cloudinary), real-time chat, like and comment interactions, and follow/unfollow functionality. This project includes a secure authentication system, profile management, and an interactive feed, recreating the complete Instagram experience with a smooth user interactions.",
+      image:
+        "https://i.postimg.cc/x1nSgCNH/Screenshot-56.png",
+      tags: [
+        "React Js",
+        "Soket.io",
+        "Node Js",
+        "Express Js",
+        "TypeScript",
+        "Redux",
+        "ShandCn"
+      ],
+      category: "web app",
+      github: "https://github.com/dev9914/Vibely---A-Complete-Instagram-Like-Application-with-Full-Stack-Functionality",
+      webapp: "https://vibely-social-media-app-frontend.onrender.com/",
+    },
+    {
       id: 11,
-      title: "Chat-App",
+      title: "Messenger",
       // date: "Jan 2024 - Dec 2023",
       description:
         "Devchat application is a modern and responsive platform that allows users to engage in instant messaging, creating seamless communication experiences. Built using the MERN stack (MongoDB, Express.js, React.js, Node.js) along with socket.io for real-time communication. This app is deployed in render.com so you can visit and test it out . and enjoy chatting in my app. .",
