@@ -40,18 +40,18 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Body>
-          <StartCanvas />
+          {/* <StartCanvas /> */}
           <div>
             <Hero />
-            <Wrapper>
+            {/* <Wrapper> */}
               <Skills />
               <Experience />
-            </Wrapper>
+            {/* </Wrapper> */}
             <Projects />
-            <Wrapper>
+            {/* <Wrapper> */}
               <Education />
-              <Contact />
-            </Wrapper>
+              {/* <Contact /> */}
+            {/* </Wrapper> */}
             <Footer />
           </div>
         </Body>

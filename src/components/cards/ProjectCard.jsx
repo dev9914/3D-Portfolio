@@ -111,7 +111,10 @@ const ProjectCard = ({ project }) => {
         ))}
       </Members>
       <Button href={project.webapp} target="_blank">
-        Visit App
+        See Video
+      </Button>
+      <Button href={project.host} target="_blank">
+        Hosted link
       </Button>
     </Card>
   );
